@@ -5,7 +5,7 @@ A command-line tool for Cross-Site WebSocket Hijacking (CSWSH)
 ## Install
 
 ```bash
-$ go get -v -u github.com/ambalabanov/websocket/cswsh-scanner/...
+$ go get -v -u github.com/ambalabanov/cswsh-scanner/...
 ```
 
 ## Basic Usage
