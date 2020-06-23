@@ -1,3 +1,3 @@
-module github.com/ambalabanov/websocket/cswsh-scanner
+module github.com/ambalabanov/cswsh-scanner
 
 go 1.14
