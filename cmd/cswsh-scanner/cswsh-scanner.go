@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/ambalabanov/websocket/cswsh-scanner"
+	"github.com/ambalabanov/cswsh-scanner"
 	"os"
 	"strings"
 	"sync"
