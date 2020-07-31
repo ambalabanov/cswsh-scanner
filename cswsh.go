@@ -18,7 +18,7 @@ type polRes struct {
 	PingInterval int      `json:"pingInterval"`
 	PingTimeout  int      `json:"pingTimeout"`
 }
-
+// set configure fo scan
 type Config struct {
 	Socket  bool
 	Verbose bool
@@ -29,7 +29,7 @@ var (
 	errMalformedURL = errors.New("malformed ws or wss URL")
 	errGettingSID   = errors.New("error getting SID")
 )
-
+// main function for package
 func Scan(urlWs string, c Config) (bool, error) {
 	urlHTTP, err := url.Parse(urlWs)
 	if err != nil {
