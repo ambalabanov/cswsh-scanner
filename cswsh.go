@@ -18,7 +18,7 @@ type polRes struct {
 	PingInterval int      `json:"pingInterval"`
 	PingTimeout  int      `json:"pingTimeout"`
 }
-// Config set configure fo scan
+//Config set configure fo scan
 type Config struct {
 	Socket  bool
 	Verbose bool
