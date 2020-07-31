@@ -29,7 +29,7 @@ var (
 	errMalformedURL = errors.New("malformed ws or wss URL")
 	errGettingSID   = errors.New("error getting SID")
 )
-// Scan is the main function for package
+//Scan it's a main function for package
 func Scan(urlWs string, c Config) (bool, error) {
 	urlHTTP, err := url.Parse(urlWs)
 	if err != nil {
